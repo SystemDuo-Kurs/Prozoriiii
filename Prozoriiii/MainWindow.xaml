@@ -1,0 +1,22 @@
+﻿<Window x:Class="Prozoriiii.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prozoriiii"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <UniformGrid Columns="2">
+            <Label FontSize="34">Teest1</Label>
+            <Button FontSize="34">Dugmeee1</Button>
+            <Label FontSize="34">Teest2</Label>
+            <Button FontSize="34">Dugmeee2</Button>
+            <Label FontSize="34">Teest3</Label>
+            <Button FontSize="34">Dugmeee3</Button>
+            <Label FontSize="34">Teest4</Label>
+            <Button FontSize="34">Dugmeee4</Button>
+        </UniformGrid>
+        <Button FontSize="34">Bla</Button>
+    </StackPanel>
+</Window>
